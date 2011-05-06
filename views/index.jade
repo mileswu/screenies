@@ -1,4 +1,7 @@
 h1 Screenshot comparison service
 
-
-
+h2 Upload
+form(method='post', enctype='multipart/form-data', action='upload')
+	input(type='file', multiple='multiple', name='files[]')
+	textarea(name='urls')
+	input(type='submit')
